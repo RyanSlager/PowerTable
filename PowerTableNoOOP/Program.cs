@@ -42,7 +42,7 @@ namespace PowerTableNoOOP
 
                 for(int i = 1; i < toPower + 1; i++)
                 {
-                    GetPows(i);  
+                    GetPows(i);
                 }
 
                 //user is prompted to continue or quit
@@ -68,7 +68,5 @@ namespace PowerTableNoOOP
             double[] pows = new double[] { num, Math.Pow(num, 2), Math.Pow(num, 3) };
             Console.WriteLine("{0,-15}{1,-30}{2, -30}\n", pows[0], pows[1], pows[2]);
         }
-
-
     }
 }
