@@ -40,7 +40,7 @@ namespace PowerTableNoOOP
 
                 // from i=1 to i=toPower + 1, i is passed into GetPows and the three results are printed on a new line
 
-                for(int i = 1; i < toPower + 1; i++)
+                for(int i = 1; i <= toPower; i++)
                 {
                     GetPows(i);
                 }
