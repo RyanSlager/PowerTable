@@ -13,7 +13,6 @@ namespace PowerTableNoOOP
             string cont = "y";
 
             Console.WriteLine("Welcome to the Power Table Calculator! What is your name?");
-
             string uName = Console.ReadLine();
 
             while (cont == "y")
@@ -67,11 +66,7 @@ namespace PowerTableNoOOP
 
         public static double[] GetPows(double num)
         {
-            double[] pows = new double[3];
-
-            pows[0] = num;
-            pows[1] = Math.Pow(num, 2);
-            pows[2] = Math.Pow(num, 3);
+            double[] pows = new double[] { num, Math.Pow(num, 2), Math.Pow(num, 3) };
 
             return pows;
         }
