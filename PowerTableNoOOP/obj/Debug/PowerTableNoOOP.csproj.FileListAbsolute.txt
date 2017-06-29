@@ -1,9 +1,3 @@
-C:\Users\slage\Desktop\C# Bootcamp\PowerTableNoOOP\PowerTableNoOOP\obj\Debug\PowerTableNoOOP.csprojResolveAssemblyReference.cache
-C:\Users\slage\Desktop\C# Bootcamp\PowerTableNoOOP\PowerTableNoOOP\bin\Debug\PowerTableNoOOP.exe.config
-C:\Users\slage\Desktop\C# Bootcamp\PowerTableNoOOP\PowerTableNoOOP\bin\Debug\PowerTableNoOOP.exe
-C:\Users\slage\Desktop\C# Bootcamp\PowerTableNoOOP\PowerTableNoOOP\bin\Debug\PowerTableNoOOP.pdb
-C:\Users\slage\Desktop\C# Bootcamp\PowerTableNoOOP\PowerTableNoOOP\obj\Debug\PowerTableNoOOP.exe
-C:\Users\slage\Desktop\C# Bootcamp\PowerTableNoOOP\PowerTableNoOOP\obj\Debug\PowerTableNoOOP.pdb
 C:\Users\slage\Desktop\C# Bootcamp\PowerTable\PowerTableNoOOP\bin\Debug\PowerTableNoOOP.exe.config
 C:\Users\slage\Desktop\C# Bootcamp\PowerTable\PowerTableNoOOP\bin\Debug\PowerTableNoOOP.exe
 C:\Users\slage\Desktop\C# Bootcamp\PowerTable\PowerTableNoOOP\bin\Debug\PowerTableNoOOP.pdb

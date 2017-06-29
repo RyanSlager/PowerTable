@@ -38,12 +38,11 @@ namespace PowerTableNoOOP
                 Console.WriteLine("{0, -15}{1, -30}{2, -30}", "Number", "Squared", "Cubed");
                 Console.WriteLine("{0, -15}{0, -30}{0, -30}\n", "=======");
 
-                // from i=1 to i=toPower, i is passed into GetPows and the three results are printed on a new line
+                // from i=1 to i=toPower + 1, i is passed into GetPows and the three results are printed on a new line
 
                 for(int i = 1; i < toPower + 1; i++)
                 {
-                    double[] pows = GetPows(i);
-                    Console.WriteLine("{0,-15}{1,-30}{2, -30}\n", pows[0], pows[1], pows[2]);
+                    GetPows(i);  
                 }
 
                 //user is prompted to continue or quit
@@ -64,11 +63,10 @@ namespace PowerTableNoOOP
         // GetPows takes a double and returns an array of doubles where double[0] is the original number,
         // double[1] is the square, and double[2] is the cube
 
-        public static double[] GetPows(double num)
+        public static void GetPows(double num)
         {
             double[] pows = new double[] { num, Math.Pow(num, 2), Math.Pow(num, 3) };
-
-            return pows;
+            Console.WriteLine("{0,-15}{1,-30}{2, -30}\n", pows[0], pows[1], pows[2]);
         }
 
 
